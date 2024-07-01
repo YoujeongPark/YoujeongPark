@@ -27,6 +27,14 @@
   <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+  <style>
+    .no-select {
+        user-select: none; /* Standard syntax */
+        -webkit-user-select: none; /* WebKit/Blink browsers */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE/Edge */
+    }
+</style>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#header-nav" data-bs-offset="0">
@@ -55,7 +63,7 @@
             <!-- Logo -->
             <!-- <a class="logo" href="index.html" title="Youjeong Park"> <img src="images/logo-light.png" alt="Youjeong" />
             </a> -->
-            <h2 class="text-6 fw-600 mb-1 text-white">Youjeong Park</h2>
+            <a class="logo no-select text-6 fw-600 mb-1 text-white" href="index.html">Youjeong Park</a>
             <!-- Logo End -->
           </div>
           <div class="col col-lg-8 navbar-accordion">
@@ -66,7 +74,7 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#motto">Motto</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Achievements</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Coworkers</a></li>
@@ -243,7 +251,7 @@
           <!-- Heading -->
           <div class="position-relative d-flex text-center mb-5">
             <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">ACHIEVEMENTS</h2>
-            <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">What I did?<span
+            <p class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">My Achievements<span
                 class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
           </div>
           <!-- Heading end-->
@@ -297,54 +305,12 @@
           <!-- Filter Menu end -->
           <div class="portfolio ">
             <div class="row portfolio-filter g-4">
-              <div class="col-sm-6 col-lg-4 brand">
-                <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-1.jpg"
-                      alt="">
-                    <div class="portfolio-overlay"> <a class="popup-youtube stretched-link"
-                        href="https://www.youtube.com/watch?v=PMNnEEEacCg"></a>
-                      <div class="portfolio-overlay-details">
-                        <h5 class="text-white fw-400">YouTube Video</h5>
-                        <span class="text-light">Category</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="col-sm-6 col-lg-4 design">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-2.jpg"
-                      alt="">
-                    <div class="portfolio-overlay"> <a class="popup-vimeo stretched-link"
-                        href="https://vimeo.com/259411563"></a>
-                      <div class="portfolio-overlay-details">
-                        <h5 class="text-white fw-400">Vimeo Video</h5>
-                        <span class="text-light">Category</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-4 artwork photos">
-                <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-3.jpg"
-                      alt="">
-                    <div class="portfolio-overlay popup-img-gallery"> <a class="popup-img stretched-link"
-                        href="images/projects/project-3.jpg"></a>
-                      <div class="portfolio-overlay-details">
-                        <h5 class="text-white fw-400">Mockups Design</h5>
-                        <span class="text-light">Category</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-4 artwork brand photos">
-                <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-4.jpg"
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-1-1.png"
                       alt="">
                     <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
-                        href="ajax/portfolio-ajax-project-4.html"></a>
+                        href="ajax/portfolio_1.html"></a>
                       <div class="portfolio-overlay-details">
                         <h5 class="text-white fw-400">Detailed Project</h5>
                         <span class="text-light">Category</span>
@@ -355,10 +321,10 @@
               </div>
               <div class="col-sm-6 col-lg-4 design">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-5.jpg"
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-2-1.png"
                       alt="">
                     <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
-                        href="ajax/portfolio-ajax-project-5.html"></a>
+                        href="ajax/portfolio_2.html"></a>
                       <div class="portfolio-overlay-details">
                         <h5 class="text-white fw-400">Detailed Project</h5>
                         <span class="text-light">Category</span>
@@ -367,12 +333,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-4 brand">
+              <div class="col-sm-6 col-lg-4 design">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-6.jpg"
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-3-1.png"
                       alt="">
                     <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
-                        href="ajax/portfolio-ajax-project-6.html"></a>
+                        href="ajax/portfolio_3.html"></a>
                       <div class="portfolio-overlay-details">
                         <h5 class="text-white fw-400">Detailed Project</h5>
                         <span class="text-light">Category</span>
@@ -381,12 +347,26 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-4 design photos">
+              <div class="col-sm-6 col-lg-4 design">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-7.jpg"
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-4-1.png"
                       alt="">
                     <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
-                        href="ajax/portfolio-ajax-project-7.html"></a>
+                        href="ajax/portfolio_4.html"></a>
+                      <div class="portfolio-overlay-details">
+                        <h5 class="text-white fw-400">Detailed Project</h5>
+                        <span class="text-light">Category</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 design">
+                <div class="portfolio-box rounded">
+                  <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/projects/project-5-1.png"
+                      alt="">
+                    <div class="portfolio-overlay popup-ajax-gallery"> <a class="popup-ajax stretched-link"
+                        href="ajax/portfolio_5.html"></a>
                       <div class="portfolio-overlay-details">
                         <h5 class="text-white fw-400">Detailed Project</h5>
                         <span class="text-light">Category</span>
@@ -547,9 +527,9 @@
                 them without hesitation. Youjeong is an expert in pharmaceutical MES solution and has performed tasks in
                 all areas from development to testing and documentation. She will be successful in any organization.”
               </p>
-              <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+              <!-- <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
                   class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
-                  class="fas fa-star text-warning"></i> </span>
+                  class="fas fa-star text-warning"></i> </span> -->
             </div>
           </div>
           <div class="item">
@@ -564,9 +544,9 @@
                 person, is hardworking, and an ambitious individual. I am also impressed by her work ethic and
                 communication skills. Not only does she strive to enhance work efficiency, but also goes the extra mile
                 to share her insights.”</p>
-              <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+              <!-- <span class="text-2"> <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
                   class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
-                  class="fas fa-star text-warning"></i> </span>
+                  class="fas fa-star text-warning"></i> </span> -->
             </div>
           </div>
         </div>
